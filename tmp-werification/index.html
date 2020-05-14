@@ -1,0 +1,72 @@
+  <head>
+    <title>Verification</title>
+  </head>
+
+  <body onload="DrawAll()">
+    <script src="https://cdn.jsdelivr.net/d3js/latest/d3.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.css">
+    <script src="raphael.min.js"></script>
+    <script src="utils.js"></script>
+    <script src="APIintegration.js"></script>
+    Frost Service Verification: <br>| Date | Forecast 1.5m air temp | Probability of frost | "werification description" | observation |
+    <div id="table"   style="overflow-y: scroll; background-color: blueviolet;"></div>
+    <div id=parameters style="background-color: limegreen;">
+      <div id="slope">
+        slope<input type="range" min=0 max=100 value=5 onchange="setSlopeIntercept()"/>
+        <div id="slopetext"></div>
+      </div>
+      <div id="intercept">
+        intercept<input type="range" min=0 max=100 value=3 onchange="setSlopeIntercept()"/>
+        <div id="intercepttext"></div>
+      </div>
+    </div>
+    <div id="legend"></div>
+    <div id="chart1"></div>
+    <script idjs="utils">
+
+      
+
+        function DrawAll(){
+
+               //define arrays
+        let simulation = [-1.77, -1.77, -1.9,  -1.9,  -1.9,  -1.9,  -1.77, -1.4, -1.15, -0.9, -0.52, 0.1, 0.48, 0.73, 0.73, 0.85, 0.48, 0.35, 0.35, 0.35, 0.35, 0.23, 0.23, 0.1]
+        let observation = [-0.53, -0.67, -0.51, -0.55, -0.63, -0.63, -0.57, -0.41, -0.17,  0.11,  0.57,  1.39, 1.92,  1.81,  1.95,  2.,    1.48,  0.64,  0.48,  0.13,  0.13, -0.17,  0.16,  0.29]
+
+        let date = linspace(0, 24, 24)
+        let stringDate = computeDateArray(date)
+
+        let visualise_datas = simulation.map((sim, i) => ({
+          sim, obs: observation[i], date: stringDate[i]
+      }))
+
+
+      let chart = new Taucharts.Chart({type:"scatterplot", data: visualise_datas, x:"sim", y:"obs", plugins: [Taucharts.api.plugins.get('tooltip')(), Taucharts.api.plugins.get('legend')()]})
+      chart.renderTo('#chart1');
+
+      let p = computePArray(simulation, slope, intercept)
+      let verifarr = computeVerifArray(p, observation)
+
+          
+          DrawRaphaelTables(observation, verifarr, p, simulation, stringDate)
+ 
+        }
+
+
+      function setSlopeIntercept(){
+          let slope = document.getElementById("slope").nodeValue
+          let intercept = document.getElementById("intercept").nodeValue
+          document.getElementById("table").innerHTML = ""
+          document.getElementById("table").innerHTML = ""
+          document.getElementById("slopetext").innerHTML = slope
+          document.getElementById("intercepttext").innerHTML = intercept
+          DrawAll(slope, intercept)
+      }
+
+
+    </script>
+  </body>
+
+
+</html>
+
