@@ -1,0 +1,25 @@
+http://monitor.pogodynka.pl/#map/19.5,51.5,7,true,true,0
+
+
+klasyfikacja stacji:
+hydrologiczne - trójąt (żółty, czarny, niebieski-pusty,pełny, jasnofioletowe-brak danych,)
+synoptyczne - kółka (zielone-puste, pełne, niebieskie)
+meteorologiczne !!!!!!!!!
+synoptyczna
+
+
+aktualne
+nieaktualne
+
+
+Dane jakie mam do dyspozycji:
+
+
+klimat
+opad
+synop
+
+
+
+
+
