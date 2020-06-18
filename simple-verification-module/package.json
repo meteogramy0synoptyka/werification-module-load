@@ -1,0 +1,29 @@
+{
+  "name": "simple-verification-module",
+  "version": "1.0.0",
+  "description": "module used for simplified data verification",
+  "main": "utils.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mongodb": "^3.5.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteogramy0synoptyka/simple-verification.git"
+  },
+  "keywords": [
+    "mongo",
+    "meteorologic",
+    "research"
+  ],
+  "author": "Andrzej",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meteogramy0synoptyka/simple-verification/issues"
+  },
+  "homepage": "https://github.com/meteogramy0synoptyka/simple-verification#readme"
+}
