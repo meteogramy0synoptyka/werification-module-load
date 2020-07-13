@@ -30,16 +30,17 @@ def get_grid(day, field):
 # (264, 280) - okolice suwałk
 # (175, 162) - kotlina jeleniogórska - łysa góra
 NODES = [
-    (264, 280),  # okolice suwałk
-    (175, 162),  # kotlina jeleniogórska - łysa góra
-    (281, 195),  # łeba forest
-    (281, 196),  # łeba urban
-    (255, 268)   # jeziora
+    # (264, 280),  # okolice suwałk
+    # (175, 162),  # kotlina jeleniogórska - łysa góra
+    # (281, 195),  # łeba forest
+    # (281, 196),  # łeba urban
+    # (255, 268)   # jeziora
+    (211, 233)
 ]
 
 for node in NODES:
-    length = 365*10+150
-    YEAR, MONTH, DAY, HOUR = 2010, 1, 1, 0
+    length = 365*5+150
+    YEAR, MONTH, DAY, HOUR = 2015, 1, 1, 0
     start = datetime(YEAR, MONTH, DAY, HOUR, tzinfo=timezone.utc)
     os.mkdir("../um_data/{}_{}".format(node[0], node[1]))
     for i in range(length):

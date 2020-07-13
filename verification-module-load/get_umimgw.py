@@ -1,10 +1,12 @@
 
+import json
 import os
 import sys
 import numpy as np
 from datetime import datetime, timedelta
 import pandas as pd
 from coords_manager import *
+from json.decoder import JSONDecodeError
 
 import time
 
@@ -23,10 +25,18 @@ imgw parameters - it is exatly number of column from special file
 # 29	air temperature
 # 77	ground temperature 5 m
 # 79	ground temperature 10 m
+# 81	ground temperature 20 m
+# 87	min_12h
+# 89	max_12h
+# 91    min_ground_12h
 # 37	relative humidity
 code_imgw_air_temp = 29
 code_imgw_ground_temp_5 = 77
 code_imgw_ground_temp_10 = 79
+code_imgw_ground_temp_20 = 81
+min_12h = 87
+max_12h = 89
+min_ground_12h = 91
 code_imgw_rel_hum = 37
 
 """
@@ -45,9 +55,33 @@ malgosia_list = ["KOLOBRZEG", "KOLOBRZEG-DZWIRZYNO",  "LEBA", "LEBORK", "GDANSK-
 
 
 '''
-from stacje_meteorologiczne.csv 
+from stacje_meteorologiczne.csv
 load meteorologic stations. return as dataframe
 '''
+
+
+# ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+def readInfo():
+    infoPath = 'info_dict.json'
+    with open(infoPath, 'r') as f:
+        info = json.load(f)
+        return info
+
+
+def to_datetime(date: str):
+    return datetime.strptime(date, '%Y-%m-%dT%H%z')
+
+
+def get_grid(day, field):
+    info = readInfo()
+    info = info[field]
+    for i in info:
+        if to_datetime(i['start_date']) <= day <= to_datetime(i['end_date']):
+            return i['info']['grid']
+
+# ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 def load_imgw_coordinates_station():
@@ -64,6 +98,25 @@ def load_imgw_coordinates_station():
     dataframe[0] = dataframe[0].astype(str)
     dataframe[3] = dataframe[3].astype(float)/10000
     dataframe[2] = dataframe[2].astype(float)/10000
+    return dataframe
+
+
+def load_imgw_coordinates_station_PL():
+    """
+    load coordinates of stations from stacje_meteorologiczne.csv
+    :param filter: filter set of imgw stations
+    :param labels: Return labels - names of cities or not.
+    :return: DataFrame
+    """
+    path = GLOBAL_PATH+"/dane_imgw/pl_stacje.csv"
+    dataframe = pd.read_csv(path, encoding='utf-8',
+                            low_memory=False, delimiter=';')
+
+    # dataframe[0] = dataframe[0].astype(str)
+    # dataframe[1] = dataframe[1].astype(str)
+    # dataframe[2] = dataframe[2].astype(float)
+    # dataframe[3] = dataframe[3].astype(float)
+    # dataframe[4] = dataframe[4].astype(float)
     return dataframe
 
 
@@ -122,6 +175,25 @@ def load_imgw_data(year, month, day, hour, parameter, stations):
 
     val = np.array(result[parameter].values.tolist())
     return lat, lon, val
+
+
+def load_imgw_rowcol_nodes():
+
+    rowcols = []
+
+    stations = load_imgw_coordinates_station_PL()
+    print("shape is", stations.shape)
+    for i in range(stations.shape[0]):
+        print("name is ", stations.loc[i, "stname"])
+        print("latlon is ", (stations.loc[i, "lat"], stations.loc[i, "lon"]))
+        print("lon is ", stations.loc[i, "lon"])
+        print("TYPE lon is ", type(stations.loc[i, "lon"]))
+        lat = stations.loc[i, "lat"]
+        lon = stations.loc[i, "lon"]
+        rowcol = um_latlon2rowcol((lon, lat))
+        rowcols.append(rowcol)
+
+    return rowcols
 
 
 def load_faster_imgw_data(years, parameter, stations):
@@ -265,8 +337,8 @@ def mongo_load_faster_sequence_single_point(d, node, stations='all', param=code_
             value = np.round(rbf(node[1], node[0]), 3)
             print(d)
 
-            mycol.insert_one({"date": d, "stations": stations,
-                              "row": node[0], "col": node[1], "value": value})
+            mycol.insert_one({"date_imgw": d, "stations": stations,
+                              "row": node[0], "col": node[1], "param": param, "value_imgw": value})
         except Exception:
             print("error - matrix is singular for ", d)
             traceback.print_exc()
@@ -295,22 +367,44 @@ def mongo_load_um_series(start, node, number_forecasts):
     for i in range(number_forecasts):
 
         d = start + timedelta(days=i)
+        print("check if date is in utc time: ", d)
         YEAR, MONTH, DAY, HOUR = d.year, d.month, d.day, d.hour
+
         # TODO uniezależnić to miejsce od miejsca uruchamiania skryptu
+
+        # path = "um_data/{}_{}/{}-{}-{}T{}.txt".format(
+        #     node[0], node[1], YEAR, MONTH, DAY, HOUR)
+        # #print("iteration number is {} path is: {} ".format(i, path))
+        # f = open(path, 'r')
+        # forecast = json.loads(f.read())
+        # print(path)
+
+        if not os.path.isdir("um_data/{}_{}".format(node[0], node[1])):
+            os.mkdir("um_data/{}_{}".format(node[0], node[1]))
+
+        YEAR, MONTH, DAY, HOUR = d.year, d.month, d.day, d.hour
+        grid = get_grid(d, "03236_0000000")
+        print("{} for date {} and node {}".format(grid, d, node))
+        command = "curl https://api.meteo.pl/api/v1/model/um/grid/{}/coordinates/{},{}/field/03236_0000000/level/_/date/{}-{}-{}T{}/forecast/ -X POST -H 'Authorization: Token 35f9b4a3ae7a274c1b12a8e3020ce69b180661ea' > um_data/{}_{}/{}-{}-{}T{}.txt"
+        command_final = command.format(
+            grid, node[0], node[1], YEAR, MONTH, DAY, HOUR, node[0], node[1], YEAR, MONTH, DAY, HOUR)
+        os.popen(command_final)
+        time.sleep(0.6)
         path = "um_data/{}_{}/{}-{}-{}T{}.txt".format(
             node[0], node[1], YEAR, MONTH, DAY, HOUR)
-
-        #print("iteration number is {} path is: {} ".format(i, path))
         f = open(path, 'r')
-        forecast = json.loads(f.read())
-        print(path)
+
+        try:
+            forecast = json.loads(f.read())
+        except JSONDecodeError as e:
+            print(e, " ERROR, occured !!!!!!!!!! ")
 
         try:
             values = [round(k2c(i), 3) for i in forecast['data'][::4]]
             for i, value in enumerate(values):
 
-                dbrow = {"start_forecast": d, "date": d +
-                         timedelta(hours=i), "row": node[0], "col": node[1], "value": value}
+                dbrow = {"start_forecast": d, "date_um": d +
+                         timedelta(hours=i), "row": node[0], "col": node[1], "value_um": value, "grid": grid}
                 mycoll.insert_one(dbrow)
                 print("start_forecast", d, "date", d +
                       timedelta(hours=i), "value=", value)

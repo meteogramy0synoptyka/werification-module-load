@@ -4,23 +4,17 @@
 import os
 import json
 from sys import *
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from get_umimgw import *
 
-len_series = 365*10
+len_series = 4
 imgw_stations = "all"
-start = datetime(2010, 1, 1, 0)
+# tzinfo - ważne !!!
+start = datetime(2010, 1, 1, 0, tzinfo=timezone.utc)
 
-NODES = [
-    #(row, col)
-    (175, 162)  # kotlina jeleniogórska
-    # (264, 280),  # okolice suwałk
-    # (281, 195),  # łeba forest
-    # (281, 196),  # łeba urban
-    # (255, 268)   # jeziora (Poligon woskowy ORZYSZ)
-]
+nodes = load_imgw_rowcol_nodes()
+print(nodes)
 
-for node in NODES:
+for node in nodes:
+    mongo_load_faster_sequence_single_point(start, node, len=len_series*24)
     mongo_load_um_series(start, node, len_series)
-    mongo_load_faster_sequence_single_point(
-        start, node, len=len_series*24)

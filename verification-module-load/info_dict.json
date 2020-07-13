@@ -1,0 +1,5522 @@
+{
+  "00004_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+
+  "00023_0000000": [
+    {
+      "start_date": "2016-09-07T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+
+  "00024_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00030_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00031_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00033_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00049_0000000": [
+    {
+      "start_date": "2011-01-11T00+0000",
+      "end_date": "2011-02-01T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "3",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2011-02-01T12+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "forecast_period",
+        "levels": "2",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-24T12+0000",
+      "end_date": "2012-03-22T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "2",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-22T12+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "forecast_period",
+        "levels": "2",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "forecast_period",
+        "levels": "2",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "forecast_period",
+        "levels": "2",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00150_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00211_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00238_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00239_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00260_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00261_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00265_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00266_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00267_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00268_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00406_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00408_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00409_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00410_0000000": [
+    {
+      "start_date": "2010-02-11T00+0000",
+      "end_date": "2010-07-05T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "00411_0000000": [
+    {
+      "start_date": "2010-02-11T00+0000",
+      "end_date": "2010-07-05T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "01201_0000000": [
+    {
+      "start_date": "2010-02-10T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "01204_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "01212_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "01213_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "01214_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "01215_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "01216_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "01235_0000000": [
+    {
+      "start_date": "2010-02-10T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "01259_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "01260_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "02201_0000000": [
+    {
+      "start_date": "2010-02-10T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "02207_0000000": [
+    {
+      "start_date": "2010-02-10T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03065_0000000": [
+    {
+      "start_date": "2018-02-26T12+0000",
+      "end_date": "2018-03-06T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03069_0000000": [
+    {
+      "start_date": "2018-02-26T12+0000",
+      "end_date": "2018-03-06T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03209_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03210_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "03225_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "03226_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "03236_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "2020-07-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03237_0000000": [
+    {
+      "start_date": "2009-03-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03238_0000000": [
+    {
+      "start_date": "2019-01-29T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "soil_model_level_number",
+        "levels": "4",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03245_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03246_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03248_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03250_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03253_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03254_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03255_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2011-02-01T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "forecast_period",
+        "levels": "2",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03281_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03287_0000000": [
+    {
+      "start_date": "2011-04-14T12+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03288_0000000": [
+    {
+      "start_date": "2011-04-14T12+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03304_0000000": [
+    {
+      "start_date": "2017-07-01T00+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03314_0000000": [
+    {
+      "start_date": "2011-04-14T12+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03316_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03317_0000000": [
+    {
+      "start_date": "2011-04-14T12+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03328_0000000": [
+    {
+      "start_date": "2011-04-14T12+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03329_0000000": [
+    {
+      "start_date": "2011-04-14T12+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03330_0000000": [
+    {
+      "start_date": "2011-04-14T12+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pseudo_level",
+        "levels": "9",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03364_0000000": [
+    {
+      "start_date": "2018-02-26T12+0000",
+      "end_date": "2018-03-06T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03460_0000000": [
+    {
+      "start_date": "2010-02-11T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03461_0000000": [
+    {
+      "start_date": "2010-02-11T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "03463S0010000": [
+    {
+      "start_date": "2012-06-15T00+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03464_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "03470_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "69",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04111_0000000": [
+    {
+      "start_date": "2018-08-28T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04118_0000000": [
+    {
+      "start_date": "2018-08-28T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04201M0001100": [
+    {
+      "start_date": "2012-02-17T12+0000",
+      "end_date": "2012-02-17T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04201M0001500": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04202M0001100": [
+    {
+      "start_date": "2012-02-17T12+0000",
+      "end_date": "2012-02-17T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04202M0001500": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04300_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04301M0001500": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04303_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04304_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "04305M0001500": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05201M0001100": [
+    {
+      "start_date": "2012-02-17T12+0000",
+      "end_date": "2012-02-17T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05201M0001500": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05202M0001100": [
+    {
+      "start_date": "2012-02-17T12+0000",
+      "end_date": "2012-02-17T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05202M0001500": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05205M0001500": [
+    {
+      "start_date": "2012-05-23T12+0000",
+      "end_date": "2012-08-01T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05206M0001500": [
+    {
+      "start_date": "2012-05-23T12+0000",
+      "end_date": "2012-08-01T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05210_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05211_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05212_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05214M0001500": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05216M0001500": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05224_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05225_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05226M0001100": [
+    {
+      "start_date": "2012-02-17T12+0000",
+      "end_date": "2012-02-17T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05226M0001500": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05231_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05232_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05269M0001500": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05269_0000000": [
+    {
+      "start_date": "2012-07-31T12+0000",
+      "end_date": "2012-08-01T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05270M0001500": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05270_0000000": [
+    {
+      "start_date": "2012-07-31T12+0000",
+      "end_date": "2012-08-01T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05272M0001500": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "05272_0000000": [
+    {
+      "start_date": "2012-07-31T12+0000",
+      "end_date": "2012-08-01T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09202_0000000": [
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09203_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09204_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09205_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09208_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09209_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09210_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09211_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09212_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09213_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09214_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09215_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09217_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09218_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09219_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09220_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09223_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09231_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09391_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09392_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09393_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09394_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09395_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09396_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09397_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "09398_0000000": [
+    {
+      "start_date": "2018-01-18T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "15002_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15003_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15101_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "15102_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "15201_0000000": [
+    {
+      "start_date": "2012-08-09T12+0000",
+      "end_date": "2014-07-17T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "pressure",
+        "levels": "13",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2014-07-17T00+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "2018-01-26T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "617",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2018-01-27T00+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "pressure",
+        "levels": "29",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15202_0000000": [
+    {
+      "start_date": "2012-08-09T12+0000",
+      "end_date": "2014-07-17T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "pressure",
+        "levels": "13",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2014-07-17T00+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "2018-01-26T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "617",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2018-01-27T00+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "pressure",
+        "levels": "29",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15212_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15213_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15242_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2012-08-09T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-08-09T12+0000",
+      "end_date": "2014-07-17T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "13",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2014-07-17T00+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "2018-01-26T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2018-01-27T00+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "29",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "15243_0000000": [
+    {
+      "start_date": "2012-02-08T12+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2012-08-09T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-08-09T12+0000",
+      "end_date": "2014-07-17T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "13",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2014-07-17T00+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "2018-01-26T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2018-01-27T00+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "29",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "15244_0000000": [
+    {
+      "start_date": "2012-02-08T12+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2012-08-09T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-08-09T12+0000",
+      "end_date": "2014-07-17T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "pressure",
+        "levels": "13",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2014-07-17T00+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "2018-01-26T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "617",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2018-01-27T00+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "pressure",
+        "levels": "29",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15282_0000000": [
+    {
+      "start_date": "2008-12-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15283_0000000": [
+    {
+      "start_date": "2008-12-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15284_0000000": [
+    {
+      "start_date": "2008-12-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15285_0000000": [
+    {
+      "start_date": "2008-12-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15286_0000000": [
+    {
+      "start_date": "2008-12-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15287_0000000": [
+    {
+      "start_date": "2008-12-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15288_0000000": [
+    {
+      "start_date": "2008-12-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15289_0000000": [
+    {
+      "start_date": "2008-12-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15290_0000000": [
+    {
+      "start_date": "2008-12-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "15291_0000000": [
+    {
+      "start_date": "2008-12-13T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "c4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "c5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "615",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "p5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "617",
+        "lons": "448"
+      }
+    }
+  ],
+  "16004_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "16202_0000000": [
+    {
+      "start_date": "2012-08-09T12+0000",
+      "end_date": "2014-07-17T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "13",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2014-07-17T00+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "2018-01-26T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2018-01-27T00+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "29",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "16203_0000000": [
+    {
+      "start_date": "2012-02-08T12+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2012-08-09T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-08-09T12+0000",
+      "end_date": "2014-07-17T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "13",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2014-07-17T00+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "2018-01-26T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2018-01-27T00+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "29",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "16204_0000000": [
+    {
+      "start_date": "2012-02-08T12+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2012-08-09T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-08-09T12+0000",
+      "end_date": "2014-07-17T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "13",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2014-07-17T00+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "2018-01-26T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2018-01-27T00+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "29",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "16222_0000000": [
+    {
+      "start_date": "2008-11-23T00+0000",
+      "end_date": "2012-02-01T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C3",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-02-01T00+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "16256_0000000": [
+    {
+      "start_date": "2012-02-08T12+0000",
+      "end_date": "2012-03-23T12+0000",
+      "info": {
+        "model": "um",
+        "grid": "C4",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-03-23T12+0000",
+      "end_date": "2012-08-09T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "11",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2012-08-09T12+0000",
+      "end_date": "2014-07-17T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "13",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2014-07-17T00+0000",
+      "end_date": "2017-02-20T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "C5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "2018-01-26T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "25",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2018-01-27T00+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "pressure",
+        "levels": "29",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "21100_0000000": [
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "21101M0001500": [
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "21102_0000000": [
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "21103_0000000": [
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "21104M0001500": [
+    {
+      "start_date": "2017-02-20T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "_",
+        "levels": "1",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "30003_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "30004_0000000": [
+    {
+      "start_date": "2018-01-04T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ],
+  "30113_0000000": [
+    {
+      "start_date": "2018-09-07T12+0000",
+      "end_date": "2018-09-11T00+0000",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "69",
+        "lats": "616",
+        "lons": "448"
+      }
+    },
+    {
+      "start_date": "2018-09-11T12+0000",
+      "end_date": "",
+      "info": {
+        "model": "um",
+        "grid": "P5",
+        "level_type": "model_level_number",
+        "levels": "70",
+        "lats": "616",
+        "lons": "448"
+      }
+    }
+  ]
+}
