@@ -137,16 +137,17 @@ def rowcol2latlon(lat, lon):
         lat[i], lon[i] = int(lat[i]), int(lon[i])
     return lat, lon
 
-# Tests
-#print(um_latlon2rowcol((18.4843, 54.3613)))
-#print(um_latlon2rowcol((17.3205, 54.4513)))
-#print(um_latlon2rowcol((20.4752, 54.1425)))
-#print(um_latlon2rowcol((16.2129, 53.4453)))
 
-#print(um_rowcol2latlon((1, 2)))
-#print(um_rowcol2latlon((54, 17)))
-#print(um_rowcol2latlon((156, 167)))
-#print(um_rowcol2latlon((300, 224)))
+# Tests
+# print(um_latlon2rowcol((18.4843, 54.3613)))
+# print(um_latlon2rowcol((17.3205, 54.4513)))
+# print(um_latlon2rowcol((20.4752, 54.1425)))
+# print(um_latlon2rowcol((16.2129, 53.4453)))
+
+# print(um_rowcol2latlon((1, 2)))
+# print(um_rowcol2latlon((54, 17)))
+# print(um_rowcol2latlon((156, 167)))
+# print(um_rowcol2latlon((300, 224)))
 
 
 # TODO 3 types of grid:

@@ -120,29 +120,33 @@ def load_imgw_coordinates_station_PL():
     return dataframe
 
 
-def filter_namefiles(namefiles, stations):
-    if stations == 'all':
+def filter_namefiles(namefiles, station):
+    if station == 'all':
         return namefiles
     else:
         returned = []
-        for nf in namefiles:
-            boolList = [nf.find(s) >= 0 for s in stations]
-            if any(boolList):
-                returned.append(nf)
-        return returned
+        for namefile in namefiles:
+            if namefile.find(station):
+                return [namefile]
+        return namefiles
 
 
-'''
-load weather data from concrete moment time (exactly one hour) as a Pandas DataFrame
-convert this DataFrame to Tuple
-:param year:
-:param month:
-:param day:
-:param hour:
-:param parameter: parameter code accordingly with number of column in csv file
-:param latlon_form: True-latlon, False-rowcol form
-:return: tuple with 3 arrays,  [lat, lon] and value
-'''
+def loadImgwCodesStations():
+    values = []
+    stations = load_imgw_coordinates_station_PL()
+    print("shape is", stations.shape)
+    for i in range(stations.shape[0]):
+        values.append(int(stations.loc[i, "wmoid"]))
+    return values
+
+
+def loadImgwNamestations():
+    names = []
+    stations = load_imgw_coordinates_station_PL()
+    print("shape is", stations.shape)
+    for i in range(stations.shape[0]):
+        rowcols.append(int(stations.loc[i, "stname"]))
+    return rowcols
 
 
 def load_imgw_data(year, month, day, hour, parameter, stations):
@@ -177,23 +181,20 @@ def load_imgw_data(year, month, day, hour, parameter, stations):
     return lat, lon, val
 
 
-def load_imgw_rowcol_nodes():
-
-    rowcols = []
-
+def loadImgwRowcolNodes():
+    values = []
     stations = load_imgw_coordinates_station_PL()
     print("shape is", stations.shape)
     for i in range(stations.shape[0]):
-        print("name is ", stations.loc[i, "stname"])
-        print("latlon is ", (stations.loc[i, "lat"], stations.loc[i, "lon"]))
-        print("lon is ", stations.loc[i, "lon"])
-        print("TYPE lon is ", type(stations.loc[i, "lon"]))
-        lat = stations.loc[i, "lat"]
-        lon = stations.loc[i, "lon"]
+        # print("name is ", stations.loc[i, "stname"])
+        # print("latlon is ", (stations.loc[i, "lat"], stations.loc[i, "lon"]))
+        # print("lon is ", stations.loc[i, "lon"])
+        # print("TYPE lon is ", type(stations.loc[i, "lon"]))
+        lat = int(stations.loc[i, "lat"])
+        lon = int(stations.loc[i, "lon"])
         rowcol = um_latlon2rowcol((lon, lat))
-        rowcols.append(rowcol)
-
-    return rowcols
+        values.append(rowcol)
+    return values
 
 
 def load_faster_imgw_data(years, parameter, stations):
@@ -309,7 +310,61 @@ def load_imgw_single_point(YEAR, MONTH, DAY, HOUR, node, stations='all', param=c
     return round(float(interpolated_value_imgw), 2)
 
 
-def mongo_load_faster_sequence_single_point(d, node, stations='all', param=code_imgw_air_temp, len=30):
+def mongoLoadImgwStationsSeries(start, i, station, len, param=code_imgw_air_temp):
+    import pymongo
+    import traceback
+
+    startTime = time.process_time()
+    currDate = start
+
+    stations = load_imgw_coordinates_station_PL()
+
+    accuracy = 4
+
+    short_code = stations.loc[i, "wmoid"]
+    name = stations.loc[i, "stname"]
+    lat = round(float(stations.loc[i, "lat"]), accuracy)
+    lon = round(float(stations.loc[i, "lon"]), accuracy)
+    rowcol = um_latlon2rowcol((lon, lat))
+    row = rowcol[0]
+    col = rowcol[1]
+    node_latlon = um_rowcol2latlon((row, col))
+    node_lat = round(node_latlon[0], accuracy)
+    node_lon = round(node_latlon[1], accuracy)
+
+    # database = pymongo.MongoClient(config["DEFAULT"]["database"])
+    # mydb = database[config['DEFAULT']['collectionname']]
+    # mycoll = mydb["IMGWraw"]
+
+    currYear = 0
+    for currDate in [start+timedelta(hours=it) for it in range(len)]:
+        if currYear < currDate.year:
+            df = load_faster_imgw_data(
+                [currDate.year], param, str(short_code)[2:])
+            print("data loaded for year {}", currDate.year)
+            currYear = currDate.year
+        m = currDate.month
+        d = currDate.day
+        h = currDate.hour
+        condition = (df[3] == m) & (df[4] == d) & (df[5] == h)
+        rowDataframe = df[condition]
+        if not rowDataframe.empty:
+            value = rowDataframe[[param]]
+            print("current date is:", currDate)
+            print(rowDataframe)
+            print("value is ", value.values.tolist()[0][0])
+            print("typevalue is ", type(value.values.tolist()[0][0]))
+
+        # my_coll.insert_one({"short_code": short_code, name: "name", "date_imgw": currDate, "param": 0, "value_imgw": 0,
+        #  "lat": lat, "lon": lon, "node_lat": node_lat, "node_lon": node_lon, "row": row, "col": col})
+
+    endTime = time.process_time()
+
+    print("performance for station {}, {} hours is {} seconds".format(
+        station, len, (endTime-startTime)))
+
+
+def mongo_load_imgw_series(d, node, stations='all', param=code_imgw_air_temp, len=30):
     from scipy.interpolate import Rbf
     import pymongo
     import traceback
@@ -320,13 +375,15 @@ def mongo_load_faster_sequence_single_point(d, node, stations='all', param=code_
     last = (start+timedelta(hours=len)).year
     years = list(range(first, last+1))
     df = load_faster_imgw_data(years, param, stations)
-    print("database launching")
+
+    start_timer = time.process_time()
+
     database = pymongo.MongoClient(config["DEFAULT"]["database"])
     mydb = database[config['DEFAULT']['collectionname']]
-    mycol = mydb["IMGW"]
+    mycoll = mydb["IMGW"]
 
     for d in [start+timedelta(hours=it) for it in range(len)]:
-        print("d {}".format(d))
+        #print("d {}".format(d))
         lat_imgw, lon_imgw, nointerpolated_value_imgw = extract_latlonval(
             df, coords, d.year, d.month, d.day, d.hour, param)
         row_imgw, col_imgw = latlon2rowcol(lat_imgw, lon_imgw)
@@ -335,13 +392,17 @@ def mongo_load_faster_sequence_single_point(d, node, stations='all', param=code_
                       nointerpolated_value_imgw, epsilon=0.02)
             # TODO upewnić się czy kolejność jest dobra tutaj
             value = np.round(rbf(node[1], node[0]), 3)
-            print(d)
+            # print(d)
 
-            mycol.insert_one({"date_imgw": d, "stations": stations,
-                              "row": node[0], "col": node[1], "param": param, "value_imgw": value})
+            mycoll.insert_one({"date_imgw": d, "stations": stations,
+                               "row": int(node[0]), "col": int(node[1]), "param": param, "value_imgw": value})
         except Exception:
-            print("error - matrix is singular for ", d)
-            traceback.print_exc()
+            pass
+            #print("error - matrix is singular for ", d)
+            # traceback.print_exc()
+
+    end_timer = time.process_time()
+    print("performance time for {} is {}".format(node, (end_timer-start_timer)))
 
 
 def mongo_load_um_series(start, node, number_forecasts):
@@ -389,7 +450,7 @@ def mongo_load_um_series(start, node, number_forecasts):
         command_final = command.format(
             grid, node[0], node[1], YEAR, MONTH, DAY, HOUR, node[0], node[1], YEAR, MONTH, DAY, HOUR)
         os.popen(command_final)
-        time.sleep(0.6)
+        time.sleep(0.8)
         path = "um_data/{}_{}/{}-{}-{}T{}.txt".format(
             node[0], node[1], YEAR, MONTH, DAY, HOUR)
         f = open(path, 'r')
@@ -404,7 +465,7 @@ def mongo_load_um_series(start, node, number_forecasts):
             for i, value in enumerate(values):
 
                 dbrow = {"start_forecast": d, "date_um": d +
-                         timedelta(hours=i), "row": node[0], "col": node[1], "value_um": value, "grid": grid}
+                         timedelta(hours=i), "row": int(node[0]), "col": int(node[1]), "value_um": value, "grid": grid}
                 mycoll.insert_one(dbrow)
                 print("start_forecast", d, "date", d +
                       timedelta(hours=i), "value=", value)
@@ -412,5 +473,4 @@ def mongo_load_um_series(start, node, number_forecasts):
             print("for {d} we don't have forecast".format(d=d))
 
     end_timer = time.process_time()
-
     print("performance time is {}".format(end_timer-start_timer))
