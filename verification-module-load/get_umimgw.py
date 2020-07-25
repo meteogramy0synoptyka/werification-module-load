@@ -436,17 +436,9 @@ def mongo_load_um_series(start, node, number_forecasts):
 
         # TODO uniezależnić to miejsce od miejsca uruchamiania skryptu
 
-        # path = "um_data/{}_{}/{}-{}-{}T{}.txt".format(
-        #     node[0], node[1], YEAR, MONTH, DAY, HOUR)
-        # #print("iteration number is {} path is: {} ".format(i, path))
-        # f = open(path, 'r')
-        # forecast = json.loads(f.read())
-        # print(path)
-
         if not os.path.isdir("um_data/{}_{}".format(node[0], node[1])):
             os.mkdir("um_data/{}_{}".format(node[0], node[1]))
 
-        YEAR, MONTH, DAY, HOUR = d.year, d.month, d.day, d.hour
         grid = get_grid(d, "03236_0000000")
         print("{} for date {} and node {}".format(grid, d, node))
         command = "curl https://api.meteo.pl/api/v1/model/um/grid/{}/coordinates/{},{}/field/03236_0000000/level/_/date/{}-{}-{}T{}/forecast/ -X POST -H 'Authorization: Token 35f9b4a3ae7a274c1b12a8e3020ce69b180661ea' > um_data/{}_{}/{}-{}-{}T{}.txt"
@@ -454,14 +446,16 @@ def mongo_load_um_series(start, node, number_forecasts):
             grid, node[0], node[1], YEAR, MONTH, DAY, HOUR, node[0], node[1], YEAR, MONTH, DAY, HOUR)
         os.popen(command_final)
         time.sleep(0.8)
+
         path = "um_data/{}_{}/{}-{}-{}T{}.txt".format(
             node[0], node[1], YEAR, MONTH, DAY, HOUR)
+        #print("iteration number is {} path is: {} ".format(i, path))
         f = open(path, 'r')
 
         try:
             forecast = json.loads(f.read())
         except JSONDecodeError as e:
-            print(e, " ERROR, occured !!!!!!!!!! ")
+            print(e, " ERROR, json has not required format or file is incorrect")
 
         try:
             values = [round(k2c(i), 3) for i in forecast['data'][::4]]
