@@ -190,10 +190,12 @@ def loadImgwRowcolNodes():
         # print("latlon is ", (stations.loc[i, "lat"], stations.loc[i, "lon"]))
         # print("lon is ", stations.loc[i, "lon"])
         # print("TYPE lon is ", type(stations.loc[i, "lon"]))
-        lat = int(stations.loc[i, "lat"])
-        lon = int(stations.loc[i, "lon"])
+        lon = float(stations.loc[i, "lon"])
+        lat = float(stations.loc[i, "lat"])
         rowcol = um_latlon2rowcol((lon, lat))
         values.append(rowcol)
+        print("name:", stations.loc[i, "stname"], "latlon:", (
+            stations.loc[i, "lat"], stations.loc[i, "lon"]), "rowcol:", rowcol)
     return values
 
 
@@ -315,10 +317,9 @@ def mongoLoadImgwStationsSeries(start, i, station, len, param=code_imgw_air_temp
     import traceback
 
     startTime = time.process_time()
+
     currDate = start
-
     stations = load_imgw_coordinates_station_PL()
-
     accuracy = 4
 
     short_code = stations.loc[i, "wmoid"]
@@ -326,15 +327,17 @@ def mongoLoadImgwStationsSeries(start, i, station, len, param=code_imgw_air_temp
     lat = round(float(stations.loc[i, "lat"]), accuracy)
     lon = round(float(stations.loc[i, "lon"]), accuracy)
     rowcol = um_latlon2rowcol((lon, lat))
-    row = rowcol[0]
-    col = rowcol[1]
+    row = int(rowcol[0])
+    col = int(rowcol[1])
     node_latlon = um_rowcol2latlon((row, col))
     node_lat = round(node_latlon[0], accuracy)
     node_lon = round(node_latlon[1], accuracy)
 
-    # database = pymongo.MongoClient(config["DEFAULT"]["database"])
-    # mydb = database[config['DEFAULT']['collectionname']]
-    # mycoll = mydb["IMGWraw"]
+    print("name:", name, "latlon:", (lat, lon), "rowcol", (rowcol))
+
+    database = pymongo.MongoClient(config["DEFAULT"]["database"])
+    mydb = database[config['DEFAULT']['collectionname']]
+    myColl = mydb["IMGWraw"]
 
     currYear = 0
     for currDate in [start+timedelta(hours=it) for it in range(len)]:
@@ -349,14 +352,14 @@ def mongoLoadImgwStationsSeries(start, i, station, len, param=code_imgw_air_temp
         condition = (df[3] == m) & (df[4] == d) & (df[5] == h)
         rowDataframe = df[condition]
         if not rowDataframe.empty:
-            value = rowDataframe[[param]]
+            dfvalue = rowDataframe[[param]]
             print("current date is:", currDate)
-            print(rowDataframe)
-            print("value is ", value.values.tolist()[0][0])
-            print("typevalue is ", type(value.values.tolist()[0][0]))
-
-        # my_coll.insert_one({"short_code": short_code, name: "name", "date_imgw": currDate, "param": 0, "value_imgw": 0,
-        #  "lat": lat, "lon": lon, "node_lat": node_lat, "node_lon": node_lon, "row": row, "col": col})
+            # print(rowDataframe)
+            value = float(dfvalue.values.tolist()[0][0])
+            print("value is ", value)
+            #print("typevalue is ", type(value))
+            myColl.insert_one({"short_code": str(short_code), "name": str(name), "date_imgw": currDate, "param": param, "value_imgw": value,
+                               "lat": lat, "lon": lon, "node_lat": node_lat, "node_lon": node_lon, "row": row, "col": col})
 
     endTime = time.process_time()
 
