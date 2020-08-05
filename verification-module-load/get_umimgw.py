@@ -39,6 +39,9 @@ max_12h = 89
 min_ground_12h = 91
 code_imgw_rel_hum = 37
 
+code_um_ground_temp = "00024_0000000"
+code_um_air_temp = "03236_0000000"
+
 """
 list of cities for particular visualisation - this is a of list of synoptic imgw stations - polish notation
 """
@@ -183,6 +186,7 @@ def load_imgw_data(year, month, day, hour, parameter, stations):
 
 def loadImgwRowcolNodes():
     values = []
+    toFrontendSelect = []
     stations = load_imgw_coordinates_station_PL()
     print("shape is", stations.shape)
     for i in range(stations.shape[0]):
@@ -194,8 +198,11 @@ def loadImgwRowcolNodes():
         lat = float(stations.loc[i, "lat"])
         rowcol = um_latlon2rowcol((lon, lat))
         values.append(rowcol)
-        print("name:", stations.loc[i, "stname"], "latlon:", (
+        toFrontendSelect.append(
+            {"row": rowcol[0], "col": rowcol[1], "stationName": stations.loc[i, "stname"]})
+        print("index:", i, " name:", stations.loc[i, "stname"], "latlon:", (
             stations.loc[i, "lat"], stations.loc[i, "lon"]), "rowcol:", rowcol)
+    print(toFrontendSelect)
     return values
 
 
@@ -408,7 +415,7 @@ def mongo_load_imgw_series(d, node, stations='all', param=code_imgw_air_temp, le
     print("performance time for {} is {}".format(node, (end_timer-start_timer)))
 
 
-def mongo_load_um_series(start, node, number_forecasts):
+def mongo_load_um_series(start, node, number_forecasts, param, onlyZerosStarts=false):
 
     # a - anticipation
     import json
@@ -428,9 +435,20 @@ def mongo_load_um_series(start, node, number_forecasts):
     mycoll = mydb["UM"]
 
     um_series = []
-    for i in range(number_forecasts):
 
-        d = start + timedelta(days=i)
+    if onlyZerosStarts:
+        custom_number_forecasts = number_forecasts
+    else:
+        custom_number_forecasts = number_forecasts*4
+
+    for i in range(custom_number_forecasts):
+
+        if onlyZerosStarts:
+            customTimedelta = timedelta(hours=i*24)
+        else:
+            customTimedelta = timedelta(hours=i*6)
+
+        d = start + customTimedelta
         print("check if date is in utc time: ", d)
         YEAR, MONTH, DAY, HOUR = d.year, d.month, d.day, d.hour
 
@@ -439,11 +457,12 @@ def mongo_load_um_series(start, node, number_forecasts):
         if not os.path.isdir("um_data/{}_{}".format(node[0], node[1])):
             os.mkdir("um_data/{}_{}".format(node[0], node[1]))
 
-        grid = get_grid(d, "03236_0000000")
+            grid = get_grid(d, param)
+
         print("{} for date {} and node {}".format(grid, d, node))
-        command = "curl https://api.meteo.pl/api/v1/model/um/grid/{}/coordinates/{},{}/field/03236_0000000/level/_/date/{}-{}-{}T{}/forecast/ -X POST -H 'Authorization: Token 35f9b4a3ae7a274c1b12a8e3020ce69b180661ea' > um_data/{}_{}/{}-{}-{}T{}.txt"
+        command = "curl https://api.meteo.pl/api/v1/model/um/grid/{}/coordinates/{},{}/field/{}}/level/_/date/{}-{}-{}T{}/forecast/ -X POST -H 'Authorization: Token 35f9b4a3ae7a274c1b12a8e3020ce69b180661ea' > um_data/{}_{}/{}-{}-{}T{}.txt"
         command_final = command.format(
-            grid, node[0], node[1], YEAR, MONTH, DAY, HOUR, node[0], node[1], YEAR, MONTH, DAY, HOUR)
+            grid, node[0], node[1], param, YEAR, MONTH, DAY, HOUR, node[0], node[1], YEAR, MONTH, DAY, HOUR)
         os.popen(command_final)
         time.sleep(0.8)
 
@@ -454,20 +473,23 @@ def mongo_load_um_series(start, node, number_forecasts):
 
         try:
             forecast = json.loads(f.read())
-        except JSONDecodeError as e:
+        except Exception as e:
             print(e, " ERROR, json has not required format or file is incorrect")
+
+        print("forecast is!!!:", forecast)
 
         try:
             values = [round(k2c(i), 3) for i in forecast['data'][::4]]
-            for i, value in enumerate(values):
-
-                dbrow = {"start_forecast": d, "date_um": d +
-                         timedelta(hours=i), "row": int(node[0]), "col": int(node[1]), "value_um": value, "grid": grid}
-                mycoll.insert_one(dbrow)
-                print("start_forecast", d, "date", d +
-                      timedelta(hours=i), "value=", value)
-        except TypeError as e:
+        except Exception as e:
             print("for {d} we don't have forecast".format(d=d))
+            continue
+
+        for i, value in enumerate(values):
+            dbrow = {"start_forecast": d, "date_um": d + timedelta(hours=i), "row": int(
+                node[0]), "col": int(node[1]), "value_um": value, "grid": grid}
+            mycoll.insert_one(dbrow)
+            print("start_forecast", d, "date", d +
+                  timedelta(hours=i), "value=", value)
 
     end_timer = time.process_time()
     print("performance time is {}".format(end_timer-start_timer))
